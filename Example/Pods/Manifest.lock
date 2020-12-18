@@ -1,0 +1,16 @@
+PODS:
+  - OSCallSymbolTracker (0.1.0)
+
+DEPENDENCIES:
+  - OSCallSymbolTracker (from `../`)
+
+EXTERNAL SOURCES:
+  OSCallSymbolTracker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OSCallSymbolTracker: b865138576f10a90a27a67f1718d49bf1ceac327
+
+PODFILE CHECKSUM: 2230262f4cc564164f55f42e952fc1f5bd1b929d
+
+COCOAPODS: 1.9.1

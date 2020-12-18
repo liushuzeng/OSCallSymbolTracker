@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OSCallSymbolTracker_Example' do
+  pod 'OSCallSymbolTracker', :path => '../'
+
+  target 'OSCallSymbolTracker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+#post_install do |installer|
+#    require '../OSAppCallCollecter/symbol_tracker.rb'
+#    symbol_tracker(installer)
+#end

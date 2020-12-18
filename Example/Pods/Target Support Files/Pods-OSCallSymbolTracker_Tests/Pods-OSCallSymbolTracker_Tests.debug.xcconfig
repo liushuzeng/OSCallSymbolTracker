@@ -1,0 +1,12 @@
+ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/OSCallSymbolTracker"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/OSCallSymbolTracker/OSCallSymbolTracker.framework/Headers"
+OTHER_CFLAGS = $(inherited) -fsanitize-coverage=func,trace-pc-guard
+OTHER_LDFLAGS = $(inherited) -framework "OSCallSymbolTracker"
+OTHER_SWIFT_FLAGS = $(inherited) -sanitize=undefined -sanitize-coverage=func
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

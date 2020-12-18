@@ -1,0 +1,6 @@
+framework module OSCallSymbolTracker {
+  umbrella header "OSCallSymbolTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
