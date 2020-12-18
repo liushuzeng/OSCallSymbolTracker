@@ -1,17 +1,17 @@
 {
   "name": "OSCallSymbolTracker",
   "version": "0.1.0",
-  "summary": "call symbol",
-  "homepage": "https://github.com/794895276@qq.com/OSCallSymbolTracker",
+  "summary": "call symbol tracker",
+  "homepage": "https://github.com/liushuzeng/OSCallSymbolTracker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "794895276@qq.com": "794895276@qq.com"
+    "liushuzeng": "794895276@qq.com"
   },
   "source": {
-    "git": "https://github.com/794895276@qq.com/OSCallSymbolTracker.git",
+    "git": "https://github.com/liushuzeng/OSCallSymbolTracker.git",
     "tag": "0.1.0"
   },
   "platforms": {
